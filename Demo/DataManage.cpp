@@ -26,7 +26,7 @@ DataManage::DataManage()
     const char* selectQuery = "SELECT * FROM users";
     std::cout << "Executing select query: " << selectQuery << "\n";
     std::vector<std::map<std::string, std::string>> queryResult = executeQuery(conn, selectQuery);
-
+    // ²éÑ¯Êý¾Ý
 
     for (const auto& row : queryResult) {
         for (const auto& field : row) {
